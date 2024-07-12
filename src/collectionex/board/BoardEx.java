@@ -1,5 +1,6 @@
 package collectionex.board;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class BoardEx {
     // 특정 인덱스의 객체 출력
     Board board = boardList.get(2);
     System.out.println(board.getSubject() + "\t" + board.getWriter() + "\t" + board.getContent());
+    System.out.println();
 
     // boardList의 모든 게시글 출력
 

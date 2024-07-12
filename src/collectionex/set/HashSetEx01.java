@@ -13,6 +13,7 @@ public class HashSetEx01 {
     set.add("ssg"); // 중복된 데이터(동등 객체)이므로 저장되지 않음
     System.out.println(set.size());
     System.out.println("======================");
+
     Set<Member> memberList = new HashSet<>();
     memberList.add(new Member("ssg", 20));
 //    memberList.add(new Member("ssg", 20)); // 동등객체 처리를 했기때문에 같은 객체로 판단하여 저장 안함

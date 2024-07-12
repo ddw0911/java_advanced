@@ -15,6 +15,7 @@ public class DiffEx {
     long startTime;
     long endTime;
 
+    //ArrayList
     startTime = System.nanoTime();
     for (int i = 0; i < 10000; i++) {
       list1.add(String.valueOf(i));
@@ -24,12 +25,14 @@ public class DiffEx {
 
     System.out.println();
 
+    //LinkedList
     startTime = System.nanoTime();
     for (int i = 0; i < 10000; i++) {
       list2.add( String.valueOf(i));
     }
     endTime = System.nanoTime();
     System.out.printf("%-15s %8s ns \n","LinkedList 걸린 시간 : ", (endTime - startTime));
-    // ArrayList는 데이터 수정 시 인덱스 수정작업이 필요해서 작업시간이 더 오래걸린다
+
+    // 결과 : ArrayList는 데이터 수정 시 인덱스 수정작업이 필요해서 작업시간이 더 오래걸린다
   }
 }

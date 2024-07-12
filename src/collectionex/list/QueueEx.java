@@ -13,13 +13,13 @@ public class QueueEx {
     queue_int.offer(3);
     System.out.println(queue_int);
 
-    Integer result1 = queue_int.poll();
-    System.out.println(result1); // 삭제된 값 확인
-    System.out.println(queue_int); // FIFO에 의해 먼저 입력된 값부터 삭제
-
-    boolean result2 = queue_int.remove(3); // object를 지정하여 삭제 + 삭제되었는지 여부 확인
+    System.out.println(queue_int.poll()); // poll() 삭제시키고 해당 값 리턴 - FIFO에 의해 먼저 입력된 값부터 삭제
     System.out.println(queue_int);
+
+    boolean result2 = queue_int.remove(3); // remove() 삭제시키고 삭제되었는지 여부 반환 + 파라미터로 object를 특정하여 삭제
     System.out.println(result2);
+    System.out.println(queue_int);
+
   }
 
 }
