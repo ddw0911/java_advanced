@@ -1,6 +1,5 @@
-package compare;
+package compare.comparable;
 
-import java.util.Comparator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

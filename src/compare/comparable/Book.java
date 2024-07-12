@@ -1,4 +1,4 @@
-package compare;
+package compare.comparable;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,7 @@ public class Book implements Comparable {
 
   //출판년도 순으로 정렬
 //  @Override
-//  public int compareTo(Object o) { // 현재 객체 > 파라미터로 넘어온 객체 : < 음수, > : 양수, 같으면 : 0
+//  public int compareTo(Object o) { // 현재 객체(기준) vs 파라미터로 넘어온 객체 : 작으면 음수, 크면 양수, 같으면 : 0
 //    if (o instanceof Book book) {
 //      if (this.year == book.year) {
 //        return 0;
