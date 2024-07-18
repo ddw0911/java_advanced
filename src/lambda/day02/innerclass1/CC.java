@@ -1,4 +1,4 @@
-package lambda.day02.innerclass;
+package lambda.day02.innerclass1;
 
 //로컬 클래스 - 생성자, 메서드 내에서 생성된 클래스
 public class CC {
@@ -26,7 +26,7 @@ public class CC {
     D d = new D(); // 로컬클래스
 
     System.out.println(d.field1);
-    d.method();
+//    d.method();
     System.out.println(D.field2);
     D.method2();
   }

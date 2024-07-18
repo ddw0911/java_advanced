@@ -1,4 +1,4 @@
-package lambda.day02.innerclass;
+package lambda.day02.innerclass1;
 
 public class CDExample {
 

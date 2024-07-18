@@ -1,6 +1,4 @@
-package lambda;
-
-import java.util.Arrays;
+package lambda.day01;
 
 public class LambdaEx02 {
 
